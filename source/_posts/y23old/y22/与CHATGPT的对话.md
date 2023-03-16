@@ -8,7 +8,7 @@ tags:
 - 趣闻
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/Screenshot_20230209_174328.jpg" title="QAQ" >}}
+![](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/Screenshot_20230209_174328.jpg)
 
 与OPENAI的ChatGPT的一些对话（不许坏坏哦）
 

@@ -10,7 +10,7 @@ tags:
 
 
 
-{{< figure src="https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/104270153_p0.jpg" title="zhen" >}}
+![](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/104270153_p0.jpg)
 
 ### Git的使用
 
