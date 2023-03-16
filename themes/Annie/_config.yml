@@ -32,7 +32,7 @@ logo: /img/logo.png
 mask_alpha: 0.4
 background_image:
     mode: normal
-    normal_url: /img/header-bg.jpg 
+    normal_url: https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/78166169_p0.jpg
     random_you_max: 110 
     random_you_url: https://sariay.github.io/Random-img/
     random_other_url: https://api.berryapi.net/?service=App.Bing.Images&day=-0
@@ -109,6 +109,8 @@ livere:
     enable: false
     livere_uid: 'sdd'
     
+#↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+#统计功能，leancloud,需要设置appid appkey
 # post_count
 leancloud_count:
     enable: false
@@ -122,9 +124,13 @@ leancloud_count:
     topN_post: 
         enable: true 
         limit: 10
+#↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
+#↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+#统计功能，你不需要设置任何appid相关，这个功能似乎还不完善
 busuanzi_count:
     enable: false
+#↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 baidu_analytics:
     enable: false
@@ -142,20 +148,30 @@ tencent_analytics:
     enable: false
     id:
 
+#↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+# 文章目录功能，默认开启
 # post_toc
 post_toc:
     enable: true
     katelog: true
-    
+#↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+#↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+# 数学公式的支持，默认开启
 # post_mathJax
 mathjax:
   enable: true
-  
+#↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+#↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+# 代码高亮功能，你仍然需要在站点中配置相关选项（highlight）
 # post_code
 # highlight_theme: normal | night | night blue | night bright | night eighties
 highlight_theme: night bright
 code_copy:
     enable: true
+#↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 # post_excerpt for index page
 excerpt_cart: 80
@@ -191,21 +207,21 @@ social:
 	one: 
         url: http://github.com/
         icon: <span class="icon-one"><span class="path1"></span><span class="path2"></span></span>
-	zhihu: 
-        url: http://github.com/
-        icon: <span class="icon-zhihu"></span>
-	github:
-        url: http://github.com/
-        icon: <span class="icon-github"></span>
-	weibo: 
-        url: http://github.com/
-        icon: <span class="icon-sina-weibo "></span>   
-	pinterest: 
-        url: http://github.com/
-        icon: <span class="icon-pinterest2"></span>   
-	instagram:
-        url: http://github.com/
-        icon: <span class="icon-instagram"></span>   
+	# zhihu:
+ #        url: http://github.com/
+ #        icon: <span class="icon-zhihu"></span>
+	# github:
+ #        url: http://github.com/
+ #        icon: <span class="icon-github"></span>
+	# weibo:
+ #        url: http://github.com/
+ #        icon: <span class="icon-sina-weibo "></span>
+	# pinterest:
+ #        url: http://github.com/
+ #        icon: <span class="icon-pinterest2"></span>
+	# instagram:
+ #        url: http://github.com/
+ #        icon: <span class="icon-instagram"></span>
 	twitter:
         url: http://github.com/
         icon: <span class="icon-twitter"></span>   
@@ -214,8 +230,8 @@ social:
         icon: <span class="icon-rss"></span>   
 
 # copyright  
-since: 2017
-author: Sariay
+since: 2022
+author: wxymywill
 
 #########################################################################################################
 # 006-GALLERY PAGE
@@ -243,10 +259,10 @@ local_search:
 
 #########################################################################################################
 # 008-OTHERS
-#########################################################################################################
+######################################################################################################### 小爱心-其它设置
 # when click, emerge heart
 love:
-    enable: false
+    enable: true
 
 # back to top
 totop:

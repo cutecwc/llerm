@@ -36,3 +36,14 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+```
+title: title about.
+date: 2018-09-01 20:10:11
+cover: /img/post-cover/imgname.xx
+categores: hexo ca
+tags: 
+	- description
+	- some others
+```
+
